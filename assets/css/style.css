@@ -1,0 +1,117 @@
+body {
+	margin: 0 auto;
+	background: url(../images/black-leather.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+h1 {
+	font-size: 3em;
+	opacity: .6;
+	margin: 40px 0 40px 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 26px; 
+	opacity: .5;
+	padding-bottom: 20px;
+}
+
+section {
+	float: left;
+	width: 55%;
+	margin-left: 40px;
+}
+
+#instructions {
+	font-size: 18px;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: black;
+	opacity: .5;
+	border: 1px solid black;
+}
+
+p {
+	padding: 10px;
+	line-height: 1em;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+aside {
+	float: left;
+	margin: 45px 0 0 45px;
+	width: 15%;
+	padding: 20px;
+	background-color: black;
+	opacity: .5;
+	border:1px solid black;
+}
+
+.scoreboard {
+	background-color: grey;
+	padding: 20px;
+}
+
+li {
+	font-size: 20px;
+}
+
+#number-match {
+	font-size: 36px;
+	line-height: 2em;
+}
+
+#total-score {
+	font-size: 30px;
+}
+
+.match {
+	clear: both;
+	width: 25%;
+	margin-left: 100px;
+	padding: 20px;
+	background-color: black;
+	opacity: .5;
+}
+
+.images {
+	margin: 80px 0 0 20px;
+}
+
+.crystals {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+}
+
+/* Media queries to correct quirky background & crystal space for smaller screen size, did not complete for tablet/mobile */
+@media screen and (max-width: 1107px) {	
+	.images {
+		margin-top: 60px;		
+	}
+}
+
+@media screen and (max-width: 952px) {	
+	body {
+		background-size: inherit;		
+	}
+}
+
+@media screen and (max-width: 899px) {	
+	.images {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 878px) {	
+	.crystals {
+		width: 120px;
+		height: 120px;	
+	}
+}
